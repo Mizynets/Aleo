@@ -184,6 +184,7 @@ transform: translateY(5px);
 	.touchTopMenu{
 		order: 2;
 		position: relative;
+		margin-right: 10px;
 	}
 
 	.touchTopMenu__click{
@@ -336,6 +337,22 @@ transform: translateY(5px);
 }
 
 @media screen and (max-width: 500px){
+		
+	.menuTalk-ul{
+		width: 100px;
+	}
+	.menuTalk-ul__link{
+		font-size: 12px;
+	}
+	.lowLevel-ul{
+		width: 100px;
+		left: 66%;
+	}
+	.lowLevel-ul-two{
+		min-width: 90px;
+		right: -90px;
+	}
+
 	.head-content__textH{
 		width: 95%;
 		font-size: 20px;
@@ -410,6 +427,7 @@ transform: translateY(5px);
 		border: none;
 		border: 1px dashed #bfbebe;
 		margin-top: 10px;
+		width: 46%;
 	}
 	.forecast:last-child{
 		border: 1px dashed #bfbebe;
